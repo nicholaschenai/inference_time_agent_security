@@ -3,11 +3,7 @@ Submission for the Agent Security Hackathon.
 
 Incomplete due to time constraints, but scaffolded out the main ideas and structure.
 
-<<<<<<< HEAD
-See the [Report](docs/report.md)
-=======
 See the [Report](docs/REPORT.md)
->>>>>>> dev
 
 ## Demos
 Currently, the following scenarios are supported:
