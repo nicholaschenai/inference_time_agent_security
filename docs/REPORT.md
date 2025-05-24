@@ -79,10 +79,6 @@ Currently, a lot of the safeguard reasoning is still LLM-based, which might suff
 We look to increasingly replace this with symbolic reasoning.
 
 ## Future work
-`suggest potential improvements or future directions for your work. `
-
-`Use this section to include observations, discussions on potential expansions if you had more time, results, and broader implications.`
-
 Future work includes finding automated ways to represent the world model as classes, functions and variables, which are then amenable to existing static / dynamic analysis tools (e.g. call graph analysis, data flow analysis) to assess the impact of an agent's action 
 
 - Encode the predicates and actions as attributes of nodes and edges in the graph so that we can additionally use PDDL for reasoning.

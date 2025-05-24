@@ -1,4 +1,10 @@
 # Inference-Time Agent Security
+
+This repo was improved upon from a hackathon submission, and the writeup can be found [here](docs/blogpost.md).
+
+See the next section for info correct as at hackathon deadline.
+
+## Hackathon 
 Submission for the Agent Security Hackathon.
 
 Incomplete due to time constraints, but scaffolded out the main ideas and structure.
@@ -8,6 +14,17 @@ See the [Report](docs/REPORT.md)
 ## Demos
 Currently, the following scenarios are supported:
 - Simplified WebArena shopping environment
+
+## Installation
+
+1. Clone the repository, cd into the directory
+
+2. Install the required dependencies:
+
+```bash
+conda env create --file env.yml
+conda activate agent_security
+```
 
 ## Usage
 
@@ -30,14 +47,3 @@ PYTHONPATH=. python src/main.py --model_name gpt-4o-mini-2024-07-18 --setting_na
 ```
 
 This command runs the guardrails system using the `gpt-4o-mini-2024-07-18` model and the `webarena_shopping` setting.
-
-## Installation
-
-1. Clone the repository
-
-
-2. Install the required dependencies:
-TODO:
-    ```bash
-    pip install -r requirements.txt
-    ```

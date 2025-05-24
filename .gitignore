@@ -159,10 +159,15 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 .idea/
 
+# my stuff
 output/
 lm_cache/
+debug_scripts/
+log_files/
+results/
 
-# vscode
+# IDE
 *.code-workspace
 .history/
 .vscode
+.cursorrules

@@ -1,3 +1,7 @@
+import logging
+
+logger = logging.getLogger("logger")
+
 class BaseAgent:
     def __init__(self):
         # Initialize any necessary components or variables
@@ -7,6 +11,5 @@ class BaseAgent:
         """
         Decide on an action based on the given observation.
         """
-        # Placeholder logic for deciding an action
-        print(f"Deciding action based on observation: {observation}")
+        logger.info(f"Deciding action based on observation: {observation}")
         return "some_action"  # Return a placeholder action
